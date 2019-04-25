@@ -13,6 +13,7 @@ gem "activerecord",  RAILS_VERSION
 gem "jquery-rails"
 gem "mysql2"
 gem "pg"
+gem 'sqlite3'
 gem 'coveralls', require: false
 
 # test unit removed from stdlib in ruby 2.2.0
