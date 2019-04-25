@@ -13,8 +13,10 @@ gem "activerecord",  RAILS_VERSION
 gem "jquery-rails"
 gem "mysql2"
 gem "pg"
-gem 'sqlite3'
 gem 'coveralls', require: false
 
+group :test do
+  gem 'sqlite3', '~> 1.3.6'
+end
 # test unit removed from stdlib in ruby 2.2.0
 gem 'test-unit' if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('2.2.0')
