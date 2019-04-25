@@ -2,8 +2,8 @@ sudo: false # upgrade travis ci infrastructure http://bit.ly/1J6D4W9
 language: ruby
 
 rvm:
-  - 2.6
-  - 2.5
+  # - 2.6
+  # - 2.5
   - 2.4
   - 2.3
   - 2.2
